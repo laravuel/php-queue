@@ -18,7 +18,7 @@ $config = require('./config.php');
 $queue = new Queue($config);
 
 // 插入队列 立即执行
-// $queue->push(new Log('test'));
+$queue->push(new Log('test'));
 
 
 // 延时执行 10秒后

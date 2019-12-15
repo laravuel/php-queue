@@ -1,5 +1,11 @@
 {
     "name": "laravuel/php-queue",
+    "description": "PHP implements a simple message queue based on redis",
+    "keywords": [
+        "php redis queue",
+        "php queue",
+        "queue"
+    ],
     "authors": [
         {
             "name": "wallboy",
